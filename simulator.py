@@ -1,7 +1,7 @@
 """
 Monte Carlo Crash Strategy & Gambler's Ruin Simulator
-Authored by Dr. Daniel Reeves, Ph.D., Lead Quantitative Risk Modeler
-CrashMath Research Labs (https://crashmath.org)
+Developed by CrashMath Quant Research Group
+CrashMath Labs (https://crashmath.org)
 
 Simulates up to 1,000,000 discrete crash game betting trajectories across
 Martingale, Anti-Martingale (Paroli), d'Alembert, and Flat Betting systems.
@@ -140,7 +140,7 @@ class CrashMonteCarloEngine:
 def print_comparison_benchmark(engine: CrashMonteCarloEngine, sims: int = 500, rounds: int = 2000):
     print("=" * 82)
     print("  CRASHMATH RESEARCH LABS • MONTE CARLO STRATEGY & RUIN BENCHMARK")
-    print("  Author: Dr. Daniel Reeves, Ph.D. (Lead Quantitative Risk Modeler)")
+    print("  Research Group: CrashMath Quant Research Group")
     print(f"  Configuration: Initial Bankroll = $1,000 | Base Bet = $10 (1%) | Edge = {engine.house_edge * 100:.1f}%")
     print(f"  Simulations: {sims:,} Independent Trajectories x {rounds:,} Rounds")
     print("=" * 82)

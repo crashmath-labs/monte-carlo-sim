@@ -6,7 +6,7 @@
 
 A high-performance **Monte Carlo risk simulation engine** evaluating sequential betting systems (Martingale, Anti-Martingale, d'Alembert, Flat Betting) against Provably Fair crash game probability distributions.
 
-Authored by **Dr. Daniel Reeves, Ph.D.** (Lead Quantitative Risk Modeler) at [CrashMath Research Labs](https://crashmath.org).
+Developed by the **CrashMath Quant Research Group** at [CrashMath Labs](https://crashmath.org).
 
 ---
 
@@ -64,7 +64,7 @@ Sample Terminal Output:
 ```text
 ==================================================================================
   CRASHMATH RESEARCH LABS • MONTE CARLO STRATEGY & RUIN BENCHMARK
-  Author: Dr. Daniel Reeves, Ph.D. (Lead Quantitative Risk Modeler)
+  Research Group: CrashMath Quant Research Group
   Configuration: Initial Bankroll = $1,000 | Base Bet = $10 (1%) | Edge = 3.0%
   Simulations: 500 Independent Trajectories x 2,000 Rounds
 ==================================================================================
@@ -91,16 +91,16 @@ To test customized bankroll sizes, cashout multipliers, and stop-loss limits in 
 
 ---
 
-## Academic Whitepaper Reference
+## Technical Whitepaper Reference
 
-This simulation framework forms Section 4.2 of the peer-reviewed technical report:
+This simulation framework forms Section 4.2 of the open technical report:
 
-> Reeves, D., Varga, E. (2026). *Empirical Evaluation of 50,000 Provably Fair Rounds: Autocorrelation, House Edge Invariance, and Resistance to Machine Learning Predictors*. Technical Report CRASHMATH-TECH-2026-04, CrashMath Research Labs.  
+> CrashMath Labs (2026). *Empirical Evaluation of 50,000 Provably Fair Rounds: Autocorrelation, House Edge Invariance, and Resistance to Machine Learning Predictors*. Technical Report CRASHMATH-TECH-2026-04, CrashMath Labs.  
 > PDF: [`https://crashmath.org/papers/provably-fair-empirical-study-2026.pdf`](https://crashmath.org/papers/provably-fair-empirical-study-2026.pdf)
 
 ```bibtex
-@software{reeves2026montecarlosim,
-  author = {Reeves, Daniel and CrashMath Research Labs},
+@software{crashmath2026montecarlosim,
+  author = {CrashMath Quant Research Group},
   title = {Monte Carlo Crash Strategy & Gambler's Ruin Simulator},
   year = {2026},
   publisher = {GitHub},
@@ -113,4 +113,4 @@ This simulation framework forms Section 4.2 of the peer-reviewed technical repor
 
 ## License
 
-MIT © 2026 CrashMath Research Labs & Dr. Daniel Reeves.
+MIT © 2026 CrashMath Labs.
